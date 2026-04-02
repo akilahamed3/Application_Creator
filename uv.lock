@@ -35,6 +35,7 @@ dependencies = [
     { name = "langchain-groq" },
     { name = "langgraph" },
     { name = "pip" },
+    { name = "prompts" },
     { name = "pydantic" },
     { name = "python-dotenv" },
 ]
@@ -47,6 +48,7 @@ requires-dist = [
     { name = "langchain-groq", specifier = ">=0.3.7" },
     { name = "langgraph", specifier = ">=0.6.3" },
     { name = "pip", specifier = ">=25.2" },
+    { name = "prompts", specifier = ">=0.0.1" },
     { name = "pydantic", specifier = ">=2.11.7" },
     { name = "python-dotenv", specifier = ">=1.1.1" },
 ]
@@ -496,6 +498,14 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/48/83/0d7d4e9efe3344b8e2fe25d93be44f64b65364d3c8d7bc6dc90198d5422e/pip-26.0.1.tar.gz", hash = "sha256:c4037d8a277c89b320abe636d59f91e6d0922d08a05b60e85e53b296613346d8", size = 1812747, upload-time = "2026-02-05T02:20:18.702Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/de/f0/c81e05b613866b76d2d1066490adf1a3dbc4ee9d9c839961c3fc8a6997af/pip-26.0.1-py3-none-any.whl", hash = "sha256:bdb1b08f4274833d62c1aa29e20907365a2ceb950410df15fc9521bad440122b", size = 1787723, upload-time = "2026-02-05T02:20:16.416Z" },
+]
+
+[[package]]
+name = "prompts"
+version = "0.0.1"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d1/58/2ff14f9245621d2f8b411525c0fc8e557224eaf2723029d5b852da376216/prompts-0.0.1-py3-none-any.whl", hash = "sha256:7cc240be453c512439c00b2145cd1f3aa3796a031661ed4a52f9ab5a060ffb19", size = 1227, upload-time = "2021-05-10T12:08:34.381Z" },
 ]
 
 [[package]]

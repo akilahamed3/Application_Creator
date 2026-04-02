@@ -11,6 +11,7 @@ dependencies = [
     "langchain-groq>=0.3.7",
     "langgraph>=0.6.3",
     "pip>=25.2",
+    "prompts>=0.0.1",
     "pydantic>=2.11.7",
     "python-dotenv>=1.1.1",
 ]
