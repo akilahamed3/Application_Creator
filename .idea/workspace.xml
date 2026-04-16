@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b52a19fa-6762-41d3-b483-dcc9418a90ad" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/agent/tools.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agent/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/agent/graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/prompts.py" beforeDir="false" afterPath="$PROJECT_DIR$/agent/prompts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/states.py" beforeDir="false" afterPath="$PROJECT_DIR$/agent/states.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
     </list>
@@ -47,7 +50,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.graph.executor": "Debug",
+    "Python.graph.executor": "Run",
     "Python.main.executor": "Debug",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -118,7 +121,7 @@
       <updated>1773748978193</updated>
       <workItem from="1773748979375" duration="6560000" />
       <workItem from="1774424967832" duration="199000" />
-      <workItem from="1774425369221" duration="12483000" />
+      <workItem from="1774425369221" duration="25042000" />
     </task>
     <servers />
   </component>
@@ -127,13 +130,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/agent/graph.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -145,6 +141,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Application_Creator$main.coverage" NAME="main Coverage Results" MODIFIED="1774516648544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Application_Creator$graph.coverage" NAME="graph Coverage Results" MODIFIED="1775141715391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/agent" />
+    <SUITE FILE_PATH="coverage/Application_Creator$graph.coverage" NAME="graph Coverage Results" MODIFIED="1776327762333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/agent" />
   </component>
 </project>
